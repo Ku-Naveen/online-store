@@ -8,7 +8,7 @@ class productsController extends Controller
 {
     public static function getAction() {        
         return view('products.view', [
-            'products' => Products::paginate(2)
+            'products' => Products::paginate(5)
         ]);
     }
 
