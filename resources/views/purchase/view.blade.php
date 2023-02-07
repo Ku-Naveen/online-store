@@ -26,7 +26,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-2" style="float: left;"></div>
+        <div class="col-md-2" style="float: left;">
+           <img style="max-width:100%;" src="{{ asset('images/apple.png') }}" />
+        </div>
         <div class="col-md-4"  style="float: left;">
             <div class="col-md-12 label"><h4>{{ $product->product_name }} - {{ $product->product_code }}</h4></div>
             <hr />
